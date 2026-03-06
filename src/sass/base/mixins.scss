@@ -1,0 +1,26 @@
+@use '/src/sass/base/variables.scss' as *;
+
+@mixin title {
+    font-weight: 800;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: black;
+}
+
+@mixin button {
+    display: block;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid $black;
+    font-weight: 800;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+@mixin sircle {
+    display: block;
+    border-radius: 500px;
+    padding: 100px;
+    width: 344px;
+    height: 344px;
+}
